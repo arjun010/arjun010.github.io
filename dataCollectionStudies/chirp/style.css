@@ -1,0 +1,60 @@
+#introDiv{
+	margin-top: 2%;
+	font-size: 16px;
+}
+
+#exampleDiv{
+	display: none;	
+}
+
+#exampleDiv table{
+	font-size: 12px;
+}
+
+#testDiv1{
+	margin-top: 2%;
+	display: none;
+}
+
+#testDiv2{
+	display: none;
+}
+
+#allSetDiv{
+	display: none;
+}
+
+.testDiv1QuestionEntryBox{
+	width: 50%;
+}
+
+.testDiv2QuestionEntryBox{
+	width: 50%;
+}
+
+#doneMessage{
+	display: none;
+}
+
+.exampleTable {
+	border:1px solid darkgray;
+	border-collapse:collapse;
+	font-size: 12px;
+	margin-bottom: 5px;
+}
+.exampleTable th {
+	border:1px solid darkgray;
+	padding:2px;
+	background:#F0F0F0;
+}
+.exampleTable td {
+	border:1px solid darkgray;
+	padding:3px;
+	text-align: left;
+}
+.exampleTable td.numericCell{
+	text-align: right;	
+}
+.exampleTable th{
+	text-align: center;	
+}

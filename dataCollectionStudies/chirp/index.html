@@ -1,0 +1,182 @@
+<html>
+<head>
+	<link href="../../css/vendor/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<script src="../../js/vendor/jquery.js"></script>
+	<script src="https://www.w3schools.com/lib/w3.js"></script>
+	<script src="../../js/vendor/bootstrap.min.js"></script>
+	<script src="le.min.js"></script>
+	<script>
+		LE.init('1876e7e4-d3be-4384-8b38-3dd917e8b551');
+	</script>
+</head>
+<body>
+	<div id="introDiv" class="container">
+		<h3>Introduction</h3>
+		<p>
+			Thank you for volunteering to participate in this experiment.
+		</p>
+		<p>
+			<b>Disclosure:</b>
+			<br>
+			<ul>
+				<li>Please note that this experiment is for research purposes only and your responses <b>WILL NOT</b> be used as a means to evaluate your performance in any course.</li>
+				<li>We <b>WILL NOT</b> collect any personal information (e.g. email) or log any personal device information (e.g. IP address) during or at the end of the session.</li>
+				<li>You can choose to close the browser window and experiment at any point. If you choose to do so, any responses you provide will be discarded.</li>
+				<li>The experiment will take approximately <b>5-7 minutes to complete</b>.</li>
+			</ul>
+		</p>
+		<p>
+			<b>Task:</b>
+			<br>
+			<ul>
+				<li>You will be presented with two different data tables and your task is to enter <b>four or more questions/statements</b> you might ask or pose to a data visualization system while exploring a data table.</li>
+				<li>For this particular experiment, we encourage you to think of questions that <b>focus on exploring relationships between items of the data tables</b>. In other words, questions that can be answered if you were provided with a graph (network diagram) connecting different items or entities.</li>
+				<li>Please note that the goal here is not to write a SQL query so please feel free to <b>phrase your questions as naturally as you wish to</b>.</li>
+			</ul>
+			Click the "Proceed" button below to see some example questions and begin the experiment.
+		</p>
+		<br><br>
+		<div align="center">
+			<p style="font-size:10px;font-weight:bold;text-align:left;">You are being asked to be a volunteer in a research study. The purpose of this study is to understand the types of questions people ask while exploring data. The study will take approximately 5-7 minutes to complete. We will not collect any personal data (IP, email, etc.) during or at the end of the study. The only data collected will be the questions you enter during the study. The risks involved are no greater than those involved in daily activities. You will not benefit or be compensated for joining this study. Study records will be kept confidential to the extent required by law. To make sure that this research is being carried out in the proper way, the Georgia Institute of Technology IRB may review study records. The Office of Human Research Protections may also look at study records. If you have any questions about the study, you may contact Dr. John Stasko at telephone 404-894-3146. If you have any questions about your rights as a research subject, you may contact Ms. Melanie Clark, Georgia Institute of Technology at (404) 894-6942. Your participation in this study is voluntary. You do not have to be in this study if you don't want to be. You have the right to change your mind and leave the study at any time without giving any reason and without penalty. You will be given a copy of this consent form to keep. You do not waive any of your legal rights by agreeing to be in the study. Your completion of this study provides your consent to participation. Thank you for participating in this study.</p>
+			<br>
+			<input type="checkbox" id="introConsent"> <b>I have read the above disclosure and consent to volunteer.<b><br>
+			<button class="btn btn-primary disabled" id="introProceed">Proceed</button>
+		</div>
+	</div>
+	<div id="exampleDiv" class="container">
+		<table>
+			<tr>
+				<td>
+					<h3>Example 1</h3>
+					<p>The data table below shows fictional list of students at a university. The table contains details including student names, courses, student's year in the degree program, major, and the weekly number of study hours.</p>
+					<div w3-include-html="exampleTable.html"></div>		
+					<p>
+						Possible questions you might ask include:
+						<ul>
+							<li>What are similarities between classes for Databases and Finite Automata?</li>
+							<li>Is there a preference for certain courses among students in different school years?</li>
+							<li>Who are similar students based on study hours?</li>
+							<li>Show the relationship between majors and courses.</li>
+							<li>Do students from some majors spend similar weekly study hours?</li>
+							<li>What are commonalities between Jon Snow and Tony Parker?</li>
+						</ul>
+					</p>
+				</td>				
+			</tr>
+			<tr>
+				<td>
+					<h3>Example 2</h3>
+					<p>The two data tables below show fictional data about employees at a software company. The attributes include the employee names, their roles within individual departments, their salaries. For each department, you have information about the city and state the department belongs to.</p>					
+					<table align="center">
+						<tr>
+							<td style="padding:10px">
+								<p align="center"><u>Employee Table</u></p>
+								<div w3-include-html="exampleTable2.html"></div>
+							</td>
+							<td style="padding:10px">
+								<p align="center"><u>Department Table</u></p>
+								<div w3-include-html="exampleTable3.html"></div>
+							</td>
+						</tr>
+					</table>					
+					<p>
+						Possible questions you might ask include:
+						<ul>
+							<li>Is there a prevalence of specific job roles in some cities?</li>
+							<li>What are commonalities between the San Francisco and Atlanta offices?</li>
+							<li>Which employees are similar?</li>
+							<li>Show me the New York office, its departments and employees.</li>
+							<li>What are the most common job roles in the Atlanta office?</li>
+							<li>Which roles have similar salaries?</li>
+							<li>Are certain departments more prevalent in some states than others?</li>
+						</ul>
+					</p>
+				</td>
+			</tr>
+		</table>
+		<div align="center">
+			<p>
+				<span style="color:red;font-size:18px;">NOTE:</span>
+				<b> These are only sample data tables. The tables that you will be provided with in the next screen will contain different data.
+				<br>
+				The questions listed above are only for demonstration purposes and are by no means an exhaustive list.
+				<br>
+				</b>
+			</p>
+			<input type="checkbox" id="exampleConsent"> I understand the examples and am ready to ask questions using the actual data tables.<br>
+			<button class="btn btn-primary disabled" id="examplesProceed">Proceed</button>			
+			<br><br>
+		</div>
+	</div>
+	<div id="testDiv1" class="container">
+		<h3><u>Dataset 1 of 2</u></h3>
+		<div w3-include-html="moviesTable.html"></div>
+		<p style="font-size:12px;"><b>Note:</b> If you wish to, you may include values not shown in the table as a part of your questions too. For example, if you wanted to enter a question involving "Morgan Freeman", you could do so even though his name doesn't appear in the subset of rows shown above.
+		</p>
+		<br>
+		<div id="testDiv1QuestionBoxes">
+			Question 1<span style="color:red">*</span>: <input class="testDiv1QuestionEntryBox required" type="text">
+			<br><br>Question 2<span style="color:red">*</span>: <input class="testDiv1QuestionEntryBox required" type="text">
+			<br><br>Question 3<span style="color:red">*</span>: <input class="testDiv1QuestionEntryBox required" type="text">
+			<br><br>Question 4<span style="color:red">*</span>: <input class="testDiv1QuestionEntryBox required" type="text">
+		</div>
+		<br>
+		<button style="margin-top:5px;" class="btn btn-info" id="testDiv1AddQuestionButton" title="Add question box"><span class="fa fa-plus"></span></button> (click to add more questions)
+		<br><br><br><br>
+		<div align="center">
+			<button class="btn btn-primary disabled" id="testDiv1Proceed">Next</button>
+		</div>
+	</div>
+	<div id="testDiv2" class="container">
+		<h3><u>Dataset 2 of 2</u></h3>
+		<table align="center">
+			<tr>
+				<td style="padding:10px">
+					<p align="center"><u>Agent Table</u></p>
+					<div w3-include-html="salesDB-agent.html"></div>
+				</td>
+				<td style="padding:10px">
+					<p align="center"><u>Order Table</u></p>
+					<div w3-include-html="salesDB-orders.html"></div>
+				</td>
+				<td style="padding:10px">
+					<p align="center"><u>Customer Table</u></p>
+					<div w3-include-html="salesDB-customers.html"></div>
+				</td>
+			</tr>
+			<!-- <tr>
+				<td style="padding:10px">
+					<p align="center"><u>Customer Table</u></p>
+					<div w3-include-html="salesDB-customers.html"></div>
+				</td>
+			</tr> -->
+		</table>
+		<br>
+		<div id="testDiv2QuestionBoxes">
+			Question 1<span style="color:red">*</span>: <input class="testDiv2QuestionEntryBox required" type="text">
+			<br><br>Question 2<span style="color:red">*</span>: <input class="testDiv2QuestionEntryBox required" type="text">
+			<br><br>Question 3<span style="color:red">*</span>: <input class="testDiv2QuestionEntryBox required" type="text">
+			<br><br>Question 4<span style="color:red">*</span>: <input class="testDiv2QuestionEntryBox required" type="text">
+		</div>
+		<br>
+		<button style="margin-top:5px;" class="btn btn-info" id="testDiv2AddQuestionButton" title="Add question box"><span class="fa fa-plus"></span></button> (click to add more questions)
+		<br><br><br><br>
+		<div align="center">
+			<button class="btn btn-primary disabled" id="testDiv2Proceed">Submit</button>
+		</div>
+	</div>
+	<div id="allSetDiv" class="container">
+		<div align=center>
+	        <br><br>
+	        <h1 id="thankYouMessage">You have completed the session. Thank you for participating.</h1>
+	        <h3 id="pleaseWaitMessage">Please wait while we make sure your responses are recorded.</h3>
+	        <progress value="0" max="10" id="allSetWaitTimeProgressBar"></progress>
+	        <h4 id="doneMessage">You may now close the browser window.</h4>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="main.js"></script>
+</html>

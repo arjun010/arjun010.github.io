@@ -1,0 +1,10 @@
+76.17.118.183 uvl3x32n LOG event=SESSION_START
+76.17.118.183 43m8qeg6 LOG event=SESSION_START
+76.17.118.183 43m8qeg6 LOG event=DB1_RESPONSES db1Questions.0=a db1Questions.1=a db1Questions.2=a db1Questions.3=a
+76.17.118.183 43m8qeg6 LOG event=DB2_RESPONSES db2Questions.0=x db2Questions.1=x db2Questions.2=x db2Questions.3=x
+76.17.118.183 43m8qeg6 LOG event=SESSION_END
+76.17.118.183 jdtlnfw3 LOG event=SESSION_START
+76.17.118.183 rp7emish LOG event=SESSION_START
+76.17.118.183 rp7emish LOG event=DB1_RESPONSES db1Questions.0=t1 db1Questions.1=t2 db1Questions.2=t3 db1Questions.3=t4
+76.17.118.183 rp7emish LOG event=DB2_RESPONSES db2Questions.0=t1 db2Questions.1=t2 db2Questions.2=t3 db2Questions.3=t4 db2Questions.4=t5 db2Questions.5=
+76.17.118.183 rp7emish LOG event=SESSION_END

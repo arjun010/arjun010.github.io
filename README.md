@@ -1,2 +1,1 @@
-# arjun010.github.io
-Source code for personal website
+Source code for personal website.

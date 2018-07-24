@@ -1,0 +1,90 @@
+/*!
+ * Start Bootstrap - Logo Nav (https://startbootstrap.com/template-overviews/logo-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logo-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+/*.publicationContainer{
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+.publicationTitle{
+	font-weight: bold;
+	font-size: large;
+}
+
+.publicationAuthors{	
+}*/
+
+.publication.citation_title a{
+	color: black
+}
+
+.publication.citation_title a:hover{
+	color:#007bff;
+
+}
+
+.contentDiv{
+	margin-top: 2.5%;
+	margin-bottom: 2.5%;
+}
+
+.ontheweb{
+	margin-top: 2.5%;
+}
+
+.ontheweb a{
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	color:black;
+}
+
+.ontheweb a:hover {
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	color:#007bff;
+}
+
+.borderless td, .borderless th {
+    border: none;
+}
+
+.projectPageTeaser{
+	width: 100%;
+	margin: 1% 0% 1% 0%;
+}
+
+.projectPageTeaserDescription{
+	font-size: 11px;	
+}
+
+.projectAbstract{
+	font-size: 12px;
+}
+
+.projectMaterials{
+	font-size: 14px;
+	padding: 0% .5% 0% .5%;
+	margin-bottom: 2.5%;
+}
+
+.projectMaterials a {
+    text-decoration: none;
+    color: black;
+}
+
+.projectMaterials a:hover {
+    color:#007bff;
+}
