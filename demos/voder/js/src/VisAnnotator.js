@@ -890,6 +890,7 @@
         let itemLabelCheckedVal = globalVars.dataFactMap[dataFact.id]['annotationMap']['item_label'];
 
         if(dataFact['type']=="ExtremeValueFact" || dataFact['type']=="OutlierFact"){
+            strokeCheckedVal = "checked";
             if(strokeCheckedVal=="checked" || opacityCheckedVal=="checked"){
                 d3.select("#"+visDivId).selectAll(".barStrip")
                     .classed("faded",function(d){
