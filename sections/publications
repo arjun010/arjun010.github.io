@@ -5,8 +5,8 @@
         <b class="publication citation_title"><a href="projects/voder.html">Augmenting Visualizations with Interactive Data Facts to Facilitate Interpretation and Communication</a></b>
         <p>
             <span class="citation_author"><i>Arjun Srinivasan</i>, Steven M. Drucker, Alex Endert, and John Stasko</span><br>
-            IEEE Transactions on Visualization and Computer Graphics, 2019 (to appear)<br>
-            <a href="static/papers/voder-infovis18.pdf" target="_blank">PDF</a> | <a href="https://drive.google.com/open?id=1HdiIf3qH_jzhnPl6sfa3kT8388PGTSv0" target="_blank">System Video</a>
+            IEEE Transactions on Visualization and Computer Graphics, 2019<br>
+            <a href="static/papers/voder-infovis18.pdf" target="_blank">PDF</a> | <a href="https://drive.google.com/open?id=1HdiIf3qH_jzhnPl6sfa3kT8388PGTSv0" target="_blank">System Video</a> | <a href="https://vimeo.com/299862032" target="_blank">Talk (InfoVis 18)</a>
         </p>
     </div>
 
@@ -59,6 +59,16 @@
     <hr>
     <h4>Conference Papers</h4>
     <hr>
+
+    <div>
+        <b class="publication citation_title"><a href="projects/discover-nl.html">Discovering Natural Language Commands in Multimodal Interfaces</a></b>
+        <p>
+            <span class="citation_author"><i>Arjun Srinivasan</i>, Mira Dontcheva, Eytan Adar, and Seth Walker</span><br>
+            ACM Conference on Intelligent User Interfaces (IUI), 2019<br>
+            <a href="../static/papers/discover-nl-iui19.pdf" target="_blank">PDF</a> | <a href="https://drive.google.com/open?id=1ro-A8SQBD2XSfNeGWky8lCXFvzgqHM4P" target="_blank">Overview Video</a>
+        </p>
+    </div>
+
     <div>
         <b class="publication citation_title"><a href="https://multimodalvis.github.io" target="_blank">Multimodal Interaction for Data Visualization</a></b>
         <p>
