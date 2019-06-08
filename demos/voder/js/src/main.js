@@ -77,6 +77,7 @@
             }
         }
 
+        $("#exploreModeContainer").height($(window).height()*.98);
         populateSpecificationDropdowns();
     }
 
@@ -1172,11 +1173,13 @@
         if(this.value=="explore"){
             $("#presentModeContainer").addClass("d-none");
             $("#exploreModeContainer").removeClass("d-none");
+            $("body").css("overflow-y","hidden");
 
             main.updateActiveVisDiv(globalVars.activeVisObject);
         }else if(this.value=="present"){
             $("#exploreModeContainer").addClass("d-none");
             $("#presentModeContainer").removeClass("d-none");
+            $("body").css("overflow-y","auto");
             let presentModeLayout = $("input[name='presentModeLayoutOption']:checked").val();
             if(presentModeLayout=="slideShow"){
                 dashboardGenerator.generateSlideShowLayout();
