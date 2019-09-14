@@ -61,6 +61,24 @@
     <hr>
 
     <div>
+        <b class="publication citation_title"><a href="projects/telegam.html">TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning</a></b>
+        <p>
+            <span class="citation_author">Fred Hohman*, <i>Arjun Srinivasan</i>*, and Steven M. Drucker</span>&nbsp;&nbsp;<span style='font-size:normal;color:gray;'>*equal contribution</span></span><br>
+            IEEE VIS 2019 (Short Paper)<br>
+            <a href="../static/papers/telegam-vis19.pdf" target="_blank">PDF</a> | <a href="https://www.youtube.com/watch?v=DKeyhVIABlQ&feature=youtu.be" target="_blank">Overview Video</a>
+        </p>
+    </div>
+
+    <div>
+        <b class="publication citation_title"><a href="projects/viswall.html">VisWall: Visual Data Exploration using Direct Combination on Large Touch Displays</a></b>
+        <p>
+            <span class="citation_author">Mallika Agarwal, <i>Arjun Srinivasan</i>, and John Stasko</span><br>
+            IEEE VIS 2019 (Short Paper)<br>
+            <a href="../static/papers/viswall-vis19.pdf" target="_blank">PDF</a> | <a href="https://drive.google.com/open?id=1LswsKOz-9qlZ_2UZwK2Vqyq4IH699br-" target="_blank">System Video</a>
+        </p>
+    </div>
+
+    <div>
         <b class="publication citation_title"><a href="projects/discover-nl.html">Discovering Natural Language Commands in Multimodal Interfaces</a></b>
         <p>
             <span class="citation_author"><i>Arjun Srinivasan</i>, Mira Dontcheva, Eytan Adar, and Seth Walker</span><br>
