@@ -33,7 +33,6 @@ body {
 
 .publication.citation_title a:hover{
 	color:#007bff;
-
 }
 
 .contentDiv{
@@ -46,14 +45,14 @@ body {
 }
 
 .ontheweb a{
-	padding-left: 0.5%;
-	padding-right: 0.5%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 	color:black;
 }
 
 .ontheweb a:hover {
-	padding-left: 0.5%;
-	padding-right: 0.5%;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
 	color:#007bff;
 }
 
@@ -98,12 +97,14 @@ body {
 	margin: 1.5%;
 	height: 300px;
 	border-radius: 5px;
+	/*background-color: #f6f6f6;*/
 }
 
 .projectThumbnailDiv:hover{
 	cursor: pointer;
 	border: 1px solid rgb(86, 180, 239);
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.05) inset, 0px 0px 16px rgba(82, 168, 236, 0.6);
+	/*background-color: rgb(86, 180, 239);*/
 }
 
 .projectThumbnail{
@@ -114,11 +115,12 @@ body {
 .projectThumbnailText{
 	height: 25%;
 	border-top: 1px solid lightgray;
-	font-size: larger;
+	/*font-size: large;*/
 	font-weight: bold;
 	text-align: center;
 	color: black;
-	padding: 12.5px;
+	/*padding: 12.5px;*/
+	padding: 6.5% 12.5% 6.5% 12.5%;
 	line-height: 1.25em;
 	font-family: Calibri, sans-serif;
 }
@@ -130,3 +132,27 @@ body {
 /*.projectThumbnailImage.hidden{*/
 	/*display: none;*/
 /*}*/
+
+#other-projects-table{
+	width: 100%;
+}
+
+#other-projects-table td{
+	padding: 1%;
+}
+
+#other-projects-table tr{
+	border-top: 1px solid lightgray;
+	border-top: 1px solid lightgray;
+}
+
+#other-projects-table td.project-image{
+	width: 25%;
+	overflow: hidden;
+}
+
+#other-projects-table td.project-description{
+	width: 65%;
+	text-align: justify;
+	font-size: small;
+}
