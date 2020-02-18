@@ -156,3 +156,7 @@ body {
 	text-align: justify;
 	font-size: small;
 }
+
+td.year-col{
+	text-align: right;
+}
