@@ -85,7 +85,7 @@ body {
 }
 
 .projectMaterials a:hover {
-    color:#007bff;
+    color: #007bff;
 }
 
 .projectContainer{
@@ -159,4 +159,10 @@ body {
 
 td.year-col{
 	text-align: right;
+}
+
+.award{
+	color: #007bff;
+	font-weight: bold;
+	margin-left: 5px;
 }
