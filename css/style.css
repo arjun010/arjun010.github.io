@@ -162,7 +162,8 @@ td.year-col{
 }
 
 .award{
-	color: #007bff;
+	/*color: #007bff;*/
+	color: orangered;
 	font-weight: bold;
 	margin-left: 5px;
 }
