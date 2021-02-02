@@ -76,7 +76,7 @@
             window.location.hash = hash;
           });
         } // End if
-      });
+    });
 
       $(".nav-link").click(function(evt){
         $(".nav-item").removeClass("active");
