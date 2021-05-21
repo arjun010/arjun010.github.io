@@ -9,7 +9,7 @@
     let biProjectImages = ["projectThumbnailImage-bi-1","projectThumbnailImage-bi-2"];
     let otherProjectImages = ["projectThumbnailImage-others-1","projectThumbnailImage-others-2","projectThumbnailImage-others-3","projectThumbnailImage-others-4"];
 
-    w3.includeHTML();
+    w3.includeHTML();   
 
     $(document).ready(function() {
         // main.showContentDiv("about-content")
