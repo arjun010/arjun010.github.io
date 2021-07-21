@@ -41,19 +41,32 @@ body {
 }
 
 .ontheweb{
-	margin-top: 2.5%;
+	margin-top: .75%;
+}
+
+.contact{
+	margin-top: 2%;
+	margin-left: .2%;
+}
+
+.contact a{
+	color: black;
 }
 
 .ontheweb a{
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	color:black;
+	/*margin-left: 0.2%;*/
+	/*margin-right: 0.8%;*/
+	color: #515151;
 }
 
 .ontheweb a:hover {
-	margin-left: 0.5%;
-	margin-right: 0.5%;
-	color:#007bff;
+	/*margin-left: 0.2%;*/
+	/*margin-right: 0.8%;*/
+	color: #007bff;
+}
+
+.ontheweb i{
+	font-size: x-large;
 }
 
 .borderless td, .borderless th {
