@@ -33,7 +33,7 @@ github_username:  jekyll
 # theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-postcss-v2
+  # - jekyll-postcss-v2
 
 postcss:
   cache: false
