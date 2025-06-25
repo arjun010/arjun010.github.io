@@ -5,10 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev:tailwind": "npx @tailwindcss/cli -i assets/styles.css -o assets/styles-built.css --watch",
+    "dev:tailwind": "npx @tailwindcss/cli -i assets/css/styles.css -o assets/css/styles-built.css --watch",
     "dev:jekyll": "bundle exec jekyll serve --livereload",
     "dev": "run-p dev:*",
-    "start": "npx @tailwindcss/cli -i assets/styles.css -o assets/styles-built.css && bundle exec jekyll serve"
+    "build": "npx @tailwindcss/cli -i assets/styles.css -o assets/styles-built.css && bundle exec jekyll serve"
   },
   "repository": {
     "type": "git",
