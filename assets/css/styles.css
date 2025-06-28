@@ -1,5 +1,9 @@
 @import "tailwindcss";
 @theme {
-  --font-sans: "Inter", sans-serif;
+  --font-cabin-sketch: "Cabin Sketch", cursive;
   --color-primary: oklch(0.5 0.2 250);
+}
+
+.url {
+  @apply text-blue-400 hover:underline;
 }

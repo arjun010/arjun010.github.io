@@ -1,9 +1,8 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>{{ page.title }} | {{ site.title }}</title>
-
-<!-- Tailwind v4 (Play CDN for quick start) -->
-<!-- <script src="https://cdn.tailwindcss.com/4.0.0"></script> -->
+<title>
+    {{ page.title }}{% if page.title and site.title %} | {% endif %}{{ site.title }}
+</title>
 
 <!-- Site-wide favicons / meta -->
 <!-- <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}"> -->

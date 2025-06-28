@@ -1,9 +1,15 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
-  <head>{% include head.html %}</head>
-  <body class="bg-zinc-50 dark:bg-zinc-900 text-zinc-900 dark:text-zinc-100">
-    {% include header.html %}
-    {{ content }}
+<head>
+    {% include head.html %}
+</head>
+<body class="min-h-screen flex flex-col">
+    <header>
+        {% include header.html %}
+    </header>
+    <main class="flex-grow">
+        {{ content }}
+    </main>
     {% include footer.html %}
-  </body>
+</body>
 </html>

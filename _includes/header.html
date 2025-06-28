@@ -1,13 +1,22 @@
 <header class="border-b border-zinc-200 dark:border-zinc-700">
-    <div class="max-w-5xl mx-auto flex items-center justify-between px-4 py-4">
-      <a href="{{ '/' | relative_url }}" class="text-xl font-bold">
-        {{ site.title }}
-      </a>
+    <div class="max-w-4xl mx-auto flex items-center justify-between px-4 py-4">
+      
+      <div>
+        <a href="{{ '/' | relative_url }}" class="text-xl font-bold">
+          {% if page.title != "Home" %}
+            {{ site.title }}
+          {% else %}
+            &nbsp; <!-- Render an empty space to maintain layout consistency -->
+          {% endif %}
+        </a>        
+      </div>
   
+      <div>
       <nav class="space-x-6">
-        <a class="navlink" href="{{ '/publications' | relative_url }}">Publications</a>
         <a class="navlink" href="{{ '/projects'     | relative_url }}">Projects</a>
+        <a class="navlink" href="{{ '/publications' | relative_url }}">Publications</a>        
         <a class="navlink" href="{{ '/cv'           | relative_url }}">CV</a>
       </nav>
+      </div>
     </div>
   </header>
