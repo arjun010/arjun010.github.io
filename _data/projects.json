@@ -1,0 +1,25 @@
+[
+  {
+      "title": "project 1 title",
+      "description": "project description",
+      "feature-on-home": true
+  },
+  {
+      "title": "project 2 title",
+      "description": "project description"
+  },
+  {
+      "title": "project 3 title",
+      "description": "project description"
+  },
+  {
+      "title": "project 4 title",
+      "description": "project description",
+      "feature-on-home": true
+  },
+  {
+      "title": "project 5 title",
+      "description": "project description",
+      "feature-on-home": true
+  }
+]

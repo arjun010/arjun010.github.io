@@ -21,11 +21,11 @@ permalink: /
             <a href="/projects" class="url text-sm font-thin !text-blue-900">(View all)</a>
   </div>
   
-  <div class="grid grid-cols-3 gap-4">
-  {% assign featured_projects = site.data.projects | where: "feature-on-home", true %}
-  {% for project in featured_projects %}
-      {% include project.html %}  
-  {% endfor %}
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    {% assign featured_projects = site.data.projects | where: "feature-on-home", true %}
+    {% for project in featured_projects %}
+        {% include project.html %}  
+    {% endfor %}
   </div>
 </section>
 
