@@ -1,29 +1,42 @@
 [
     {
-        "title": "Paper title 1",
+        "title": "Pluto: Authoring Semantically Aligned Text and Charts for Data-Driven Communication",
         "authors": [
-            "Author One",
-            "Author Two"
+            "Arjun Srinivasan",
+            "Vidya Setlur",
+            "Arvind Satyanarayan"
         ],
         "year": 2025,
-        "venue": "Journal of Interesting Research",
-        "type": "journal",
-        "date": "2025-01",
-        "url": "https://example.com/paper1",
-        "feature-on-home": true
+        "venue": "ACM Conference on Intelligent User Interfaces (IUI)",
+        "type": "conference",
+        "date": "2025-03",
+        "materials": {
+            "pdf": "assets/papers/pluto.pdf",
+            "video": "link"
+        }
     },
     {
-        "title": "Paper title 1",
+        "title": "MEDLEY: Intent-based Recommendations to Support Dashboard Composition",
         "authors": [
-            "Author One",
-            "Author Two"
+            "Aditeya Pandey",
+            "Arjun Srinivasan",
+            "Vidya Setlur"
         ],
         "year": 2023,
-        "venue": "Journal of Interesting Research",
+        "venue": "IEEE Transactions on Visualization and Computer Graphics",
         "type": "journal",
-        "date": "2023-12",
-        "url": "https://example.com/paper1"
-    },
+        "date": "2023-01",
+        "award": "Best Paper Honorable Mention",
+        "award-type": "honorable-mention",
+        "materials": {
+            "pdf": "assets/papers/medley.pdf",
+            "slides": "assets/slides/medley-slides.pdf",
+            "talk": "https://www.youtube.com/watch?v=example",
+            "demo": "https://example.com/demo",
+            "code": "https://github.com"
+        },
+        "feature-on-home": true
+    },    
     {
         "title": "Paper title 3",
         "authors": [
@@ -46,7 +59,12 @@
         "date": "2021-03",
         "type": "workshop",
         "venue": "Workshop of Not So Interesting Research",
-        "url": "https://example.com/paper1"
+        "url": "https://example.com/paper1",
+        "materials": {
+            "demo": "assets/papers/pluto.pdf",
+            "code": "link",
+            "talk": "https"
+        }
     },
     {
         "title": "Paper title 4",
@@ -61,6 +79,12 @@
         "date": "2021-01",
         "venue": "Conference of Interesting Research",
         "url": "https://example.com/paper1",
-        "feature-on-home": true
+        "feature-on-home": true,
+        "materials": {
+            "pdf": "assets/papers/medley.pdf",
+            "demo": "https://example.com/demo",       
+            "slides": "assets/slides/medley-slides.pdf",
+            "talk": "https://www.youtube.com/watch?v=example"    
+        }
     }
 ]

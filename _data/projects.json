@@ -2,11 +2,20 @@
   {
       "title": "project 1 title",
       "description": "project description",
-      "feature-on-home": true
+      "feature-on-home": true,
+      "materials": {
+        "pdf": "assets/papers/project1.pdf",
+          "demo": "https://example.com/demo1",
+          "code": "github.com"
+      }
   },
   {
       "title": "project 2 title",
-      "description": "project description"
+      "description": "project description",
+      "materials": {
+          "demo": "https://example.com/demo2",
+          "code": "github.com"          
+      }      
   },
   {
       "title": "project 3 title",
@@ -15,11 +24,20 @@
   {
       "title": "project 4 title",
       "description": "project description",
-      "feature-on-home": true
+      "feature-on-home": true,
+      "materials": {
+          "demo": "https://example.com/demo4",
+          "code": "github.com"
+      }
   },
   {
       "title": "project 5 title",
       "description": "project description",
       "feature-on-home": true
+      ,
+      "materials": {
+          "demo": "https://example.com/demo5",
+          "code": "github.com"
+      }
   }
 ]

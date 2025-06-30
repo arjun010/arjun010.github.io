@@ -1,0 +1,50 @@
+<div class="materials flex flex-wrap gap-1 pt-1">
+    <!-- ========== -->
+    <!-- logic to prioritize certain keys in the info row based on where they are rendered (e.g., project vs publication card) -->
+    
+    {% assign publication_priority_keys = "pdf,talk,video" | split: "," %}
+    {% assign project_priority_keys = "demo,code" | split: "," %}
+
+    {% if include.container == "publication-card" %}
+        {% assign priority_keys = publication_priority_keys %}
+    {% elsif include.container == "project-card" %}
+        {% assign priority_keys = project_priority_keys %}
+    {% else %}
+        {% assign priority_keys = "" | split: "," %}
+    {% endif %}
+
+    {% assign all_keys = "" | split: "" %}
+    {% for entry in include.materials %}
+        {% assign all_keys = all_keys | push: entry[0] %}
+    {% endfor %}
+    {% assign all_keys = all_keys | sort %}
+
+    {% assign ordered_keys = "" | split: "" %}
+    {% for key in priority_keys %}
+        {% if include.materials[key] %}
+            {% assign ordered_keys = ordered_keys | push: key %}
+        {% endif %}
+    {% endfor %}
+
+    {% for key in all_keys %}
+        {% unless priority_keys contains key %}
+            {% assign ordered_keys = ordered_keys | push: key %}
+        {% endunless %}
+    {% endfor %}
+    <!-- ========== -->
+    
+    {% for material in ordered_keys %}
+        {% assign url = include.materials[material] %}
+        <!-- <a href="{{ url }}" target="_blank" class="inline-flex items-center space-x-1 text-xs text-blue-500 hover:text-white hover:bg-blue-500 rounded-full border border-gray-300 hover:border-white px-2 py-1 transition duration-200"> -->
+        <a href="{{ url }}" target="_blank" class="inline-flex items-center space-x-1 text-xs text-blue-400 hover:underline rounded-xl border border-blue-400 px-2 py-1 transition duration-200">
+            <i class="{% if material == 'pdf' %}fas fa-file-pdf{% elsif material == 'slides' %}fas fa-file-powerpoint{% elsif material == 'video' %}fas fa-film{% elsif material == 'talk' %}fas fa-video{% elsif material == 'demo' %}fas fa-laptop{% elsif material == 'code' %}fab fa-github{% endif %}"></i>
+            <span>
+                {% if material == 'pdf' %}
+                    {{ material | upcase }}
+                {% else %}
+                    {{ material | capitalize }}
+                {% endif %}                
+            </span>
+        </a>
+    {% endfor %}
+</div>

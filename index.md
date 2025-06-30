@@ -5,7 +5,7 @@ permalink: /
 ---
 
 <div class="max-w-4xl mx-auto px-4 py-16 text-justify space-y-12 text-lg">
-<section class="intro space-y-4 font-thin">
+<section class="intro space-y-4 font-extralight">
   <div><span class="cursor-default text-3xl" title="namaste">🙏</span>
   
   I'm a Lead Research Scientist at <a href="https://www.salesforce.com/" target="_blank">Salesforce</a> working on <b>intelligent and expressive tools for human-data interaction</b>. Specifically, I develop interactive systems that guide visual data analysis through proactive recommendations and allow people to freely engage with their data using different modalities.</div>
@@ -18,28 +18,28 @@ permalink: /
             <!-- <hr class="flex-grow border-gray-200"> -->
             <h1 class="text-4xl font-medium"><span class="font-thin">Select</span> <a href="/projects" class="url !text-blue-900">Projects</a></h1>
             <hr class="flex-grow border-gray-200">
-            <a href="/projects" class="url text-sm font-thin !text-blue-900">(View all)</a>
+            <a href="/projects" class="url text-sm font-light !text-blue-900">(View all)</a>
   </div>
   
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
     {% assign featured_projects = site.data.projects | where: "feature-on-home", true %}
     {% for project in featured_projects %}
-        {% include project.html %}  
+        {% include project-card.html %}  
     {% endfor %}
   </div>
 </section>
 
 <section class="select-publications space-y-4">
-<div class="flex items-center space-x-4">            
-            <!-- <hr class="flex-grow border-gray-200"> -->
-            <h1 class="text-4xl font-medium"><span class="font-thin">Select</span> <a href="/publications" class="url !text-blue-900">Publications</a></h1>
-            <hr class="flex-grow border-gray-200">
-            <a href="/publications" class="url text-sm font-thin !text-blue-900">(View all)</a>
+  <div class="flex items-center space-x-4">            
+              <!-- <hr class="flex-grow border-gray-200"> -->
+              <h1 class="text-4xl font-medium"><span class="font-thin">Select</span> <a href="/publications" class="url !text-blue-900">Publications</a></h1>
+              <hr class="flex-grow border-gray-200">
+              <a href="/publications" class="url text-sm font-light !text-blue-900">(View all)</a>
   </div>  
 
   {% assign featured_publications = site.data.publications | where: "feature-on-home", true %}
   {% for publication in featured_publications %}
-    {% include publication.html %}
+    {% include publication-card.html %}
   {% endfor %}
 </section>
 

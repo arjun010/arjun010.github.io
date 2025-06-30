@@ -19,14 +19,14 @@ title: Publications
         <!-- Show conference and journal publications first -->
         {% for publication in sorted_publications %}
             {% if publication.type == "conference" or publication.type == "journal" %}
-                {% include publication.html %}
+                {% include publication-card.html %}
             {% endif %}
         {% endfor %}
 
         <!-- Show other publications -->
         {% for publication in sorted_publications %}
             {% if publication.type != "conference" and publication.type != "journal" %}
-                {% include publication.html %}
+                {% include publication-card.html %}
             {% endif %}
         {% endfor %}
     </div>
