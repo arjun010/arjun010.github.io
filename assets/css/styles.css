@@ -1,15 +1,17 @@
 @import "tailwindcss";
 @theme {
   --font-cabin-sketch: "Cabin Sketch", cursive;
-  --font-default: 'Helvetica Neue', 'Segoe UI', 'Roboto', 'Arial', sans-serif;  
+  --font-source-sans-pro: "Source Sans Pro", sans-serif;
+  --font-default: 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
 }
 
 .url {
-  @apply text-blue-400 hover:underline;
+  @apply hover:text-blue-400 hover:underline;
 }
 
 body{
   @apply font-default;
+  /* @apply font-source-sans-pro */
 }
 
 .paper-bg {

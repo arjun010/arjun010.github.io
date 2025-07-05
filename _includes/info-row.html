@@ -37,7 +37,7 @@
         {% assign url = include.materials[material] %}
         <!-- <a href="{{ url }}" target="_blank" class="inline-flex items-center space-x-1 text-xs text-blue-500 hover:text-white hover:bg-blue-500 rounded-full border border-gray-300 hover:border-white px-2 py-1 transition duration-200"> -->
         <a href="{{ url }}" target="_blank" class="inline-flex items-center space-x-1 text-xs text-blue-400 hover:underline rounded-xl border border-blue-400 px-2 py-1 transition duration-200">
-            <i class="{% if material == 'pdf' %}fas fa-file-pdf{% elsif material == 'slides' %}fas fa-file-powerpoint{% elsif material == 'video' %}fas fa-film{% elsif material == 'talk' %}fas fa-video{% elsif material == 'demo' %}fas fa-laptop{% elsif material == 'code' %}fab fa-github{% endif %}"></i>
+            <i class="{% if material == 'pdf' %}fas fa-file-pdf{% elsif material == 'slides' %}fas fa-file-powerpoint{% elsif material == 'video' %}fas fa-film{% elsif material == 'talk' %}fas fa-video{% elsif material == 'demo' %}fas fa-laptop{% elsif material == 'code' %}fab fa-github{% elsif material == 'dataset' %}fas fa-database{% elsif material == 'project' %}fas fa-link{% elsif material == 'project' %}fas fa-link{% endif %}"></i>
             <span>
                 {% if material == 'pdf' %}
                     {{ material | upcase }}

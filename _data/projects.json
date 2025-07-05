@@ -1,7 +1,7 @@
 [
   {
-      "title": "project 1 title",
-      "description": "project description",
+      "title": "NL4DV",
+      "description": "project description that spans multiple lines. project description that spans multiple lines. project description that spans multiple lines. project description that spans multiple lines.",
       "feature-on-home": true,
       "materials": {
         "pdf": "assets/papers/project1.pdf",
@@ -10,7 +10,7 @@
       }
   },
   {
-      "title": "project 2 title",
+      "title": "Voder",
       "description": "project description",
       "materials": {
           "demo": "https://example.com/demo2",
@@ -18,11 +18,11 @@
       }      
   },
   {
-      "title": "project 3 title",
+      "title": "NLV Corpus",
       "description": "project description"
   },
   {
-      "title": "project 4 title",
+      "title": "DataBreeze",
       "description": "project description",
       "feature-on-home": true,
       "materials": {
@@ -31,10 +31,17 @@
       }
   },
   {
-      "title": "project 5 title",
+      "title": "Graphiti",
       "description": "project description",
-      "feature-on-home": true
-      ,
+      "materials": {
+          "demo": "https://example.com/demo5",
+          "code": "github.com"
+      }
+  },
+  {
+      "title": "Snowy",
+      "description": "project description",
+      "feature-on-home": true,
       "materials": {
           "demo": "https://example.com/demo5",
           "code": "github.com"

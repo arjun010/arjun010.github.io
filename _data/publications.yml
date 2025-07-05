@@ -1,0 +1,357 @@
+- title: "Pluto: Authoring Semantically Aligned Text and Charts for Data-Driven Communication"
+  authors:
+    - Arjun Srinivasan
+    - Vidya Setlur
+    - Arvind Satyanarayan
+  venue: ACM Conference on Intelligent User Interfaces (IUI), 2025
+  type: conference
+  date: 2025-03
+  materials:
+    pdf: 
+    video: 
+
+- title: "RemixTape: Enriching Narratives about Metrics with Semantic Alignment and Contextual Recommendation"
+  authors:
+    - Matthew Brehmer
+    - Margaret Drouhard
+    - Arjun Srinivasan
+  venue: IEEE Pacific Visualization Conference (PacificVis), 2025
+  type: conference
+  date: 2025-04
+  materials:
+    pdf:
+    talk:
+
+- title: "GROOT: A System for Editing and Configuring Automated Data Insights"
+  authors:
+    - Sneha Gathani
+    - Anamaria Crisan
+    - Vidya Setlur
+    - Arjun Srinivasan
+  venue: IEEE Conference on Visualization & Visual Analytics (VIS), 2024 | Short paper
+  type: conference
+  date: 2024-10
+  materials:
+    pdf: 
+    talk: https://youtu.be/5O_zfoG4xOo?t=2845
+
+- title: Enabling Tabular Data Exploration for Blind and Low-Vision Users
+  authors:
+    - Yanan Wang
+    - Arjun Srinivasan
+    - Yea-Seul Kim
+  venue: ACM Conference on Designing Interactive Systems (DIS), 2024
+  type: conference
+  date: 2024-07
+  materials:
+    pdf: 
+    video: https://dl.acm.org/doi/10.1145/3643834.3661609    
+
+- title: "From Dashboard Zoo to Census: A Case Study With Tableau Public"
+  authors:
+    - Arjun Srinivasan
+    - Joanna Purich
+    - Michael Correll
+    - Leilani Battle
+    - Vidya Setlur
+    - Anamaria Crisan
+  venue: IEEE Transactions on Visualization and Computer Graphics, 2024
+  type: journal
+  date: 2024-11
+  materials:
+    pdf: 
+    dataset: 
+
+- title: "Bringing Data into the Conversation: Adapting Content from Business Intelligence Dashboards for Threaded Collaboration Platforms"
+  authors:
+    - Hyeok Kim
+    - Arjun Srinivasan
+    - Matthew Brehmer
+  venue: IEEE Conference on Visualization & Visual Analytics (VIS), 2024 | Short paper
+  type: conference
+  date: 2024-10
+  materials:
+    pdf: 
+    talk: https://youtu.be/O3wdZMpMs-I?t=3512
+
+- title: "Azimuth: Designing Accessible Dashboards for Screen Reader Users"
+  authors:
+    - Arjun Srinivasan
+    - Tim Harshbarger
+    - Darrell Hilliker
+    - Jennifer Mankoff
+  venue: ACM SIGACCESS Conference on Computers and Accessibility (ASSETS), 2023
+  type: conference
+  date: 2023-10
+  award: Best Paper, Honorable Mention
+  materials:
+    pdf: 
+    video: 
+    demo: 
+
+- title: "Olio: A Semantic Search Interface for Data Repositories"
+  authors:
+    - Vidya Setlur
+    - Andriy Kanyuka
+    - Arjun Srinivasan
+  venue: ACM Symposium on User Interface Software and Technology (UIST), 2023
+  type: conference
+  date: 2023-10
+  materials:
+    pdf: 
+    video: 
+
+- title: "DataTales: Investigating the use of Large Language Models for Authoring Data-Driven Articles"
+  authors:
+    - Nicole Sultanum
+    - Arjun Srinivasan
+  venue: IEEE Conference on Visualization & Visual Analytics (VIS), 2023 | Short paper
+  type: conference
+  date: 2023-10
+  materials:
+    pdf:
+    video: https://www.tableau.com/datatales-investigating-use-large-language-models-authoring-data-driven-articles-video
+    talk: https://www.youtube.com/watch?v=KRKpifl4M_8
+
+- title: Combining Voice and Gesture for Presenting Data to Remote Audiences
+  authors:
+    - Arjun Srinivasan
+    - Matthew Brehmer
+  venue: Workshop on Multimodal Experiences for Remote Communication Around Data Online (MERCADO), IEEE VIS 2023
+  type: workshop
+  date: 2023-10
+  materials:
+    pdf:
+    video:
+
+- title: Exploring Chart Question Answering for Blind and Low Vision Users
+  authors:
+    - Jiho Kim
+    - Arjun Srinivasan
+    - Nam Wook Kim
+    - Yea-Seul Kim
+  venue: ACM Conference on Human Factors in Computing Systems (CHI), 2023
+  type: conference
+  date: 2023-04
+  materials:
+    pdf: 
+    talk: https://www.youtube.com/watch?v=MGbKT4Nbvew
+
+- title: "BOLT: A Natural Language Interface for Dashboard Authoring"
+  authors:
+    - Arjun Srinivasan
+    - Vidya Setlur
+  venue: EuroVis 2023 (Short paper)
+  type: conference
+  date: 2023-06
+  materials:
+    pdf: 
+    video: https://drive.google.com/file/d/1c6_eWz18Cme_1-bYvVqtakxisI7e1DD5/view
+
+- title: "MEDLEY: Intent-based Recommendations to Support Dashboard Composition"
+  authors:
+    - Aditeya Pandey
+    - Arjun Srinivasan
+    - Vidya Setlur
+  venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2022)
+  type: journal
+  date: 2022-10
+  award: Best Paper, Honorable Mention
+  materials:
+    pdf: 
+    video: 
+    talk: 
+    demo: 
+
+- title: "Comparison Conundrum and the Chamber of Visualizations: An Exploration of How Language Influences Visual Design"
+  authors:
+    - Aimen Gaba
+    - Vidya Setlur
+    - Arjun Srinivasan
+    - Jane Hoffswell
+    - Cindy Xiong
+  venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2022)
+  type: journal
+  date: 2022-10
+  materials:
+    pdf: 
+
+- title: "Snowy: Recommending Utterances for Conversational Visual Analysis"
+  authors:
+    - Arjun Srinivasan
+    - Vidya Setlur
+  venue: ACM Symposium on User Interface Software and Technology (UIST), 2021
+  type: conference
+  date: 2021-10
+  materials:
+    pdf:
+    video:
+    talk:
+
+- title: Collecting and Characterizing Natural Language Utterances for Specifying Data Visualizations
+  authors:
+    - Arjun Srinivasan
+    - Nikhila Nyapathy
+    - Bongshin Lee
+    - Steven M. Drucker
+    - John Stasko
+  venue: ACM Conference on Human Factors in Computing Systems (CHI), 2021
+  type: conference
+  date: 2021-05
+  materials:
+    pdf:
+    talk:
+    project: https://nlvcorpus.github.io/
+
+- title: "Data@Hand: Fostering Visual Exploration of Personal Data on Smartphones Leveraging Speech and Touch Interaction"
+  authors:
+    - Young-Ho Kim
+    - Bongshin Lee
+    - Arjun Srinivasan
+    - Eun Kyoung Choe
+  venue: ACM Conference on Human Factors in Computing Systems (CHI), 2021
+  type: conference
+  date: 2021-05
+  award: Best Paper, Honorable Mention
+  materials:
+    pdf:
+    video:
+    talk:
+    code:
+
+- title: "Post-WIMP Interaction for Information Visualization"
+  authors:
+    - Bongshin Lee
+    - Arjun Srinivasan
+    - Petra Isenberg
+    - John Stasko
+  venue: Foundations and Trends® in Human-Computer Interaction, 2021
+  type: book
+  date: 2021-06
+  materials:
+    pdf:
+
+- title: "NL4DV: A Toolkit for Generating Analytic Specifications for Data Visualization from Natural Language Queries"
+  authors:
+    - Arpit Narechania*
+    - Arjun Srinivasan*
+    - John Stasko
+  venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2020)
+  type: journal
+  date: 2020-10
+  equal_contribution: true
+  materials:
+    pdf:
+    video:
+    talk:
+    project: https://nl4dv.github.io/
+    code:
+
+- title: "Interweaving Multimodal Interaction with Flexible Unit Visualizations for Data Exploration"
+  authors:
+    - Arjun Srinivasan
+    - Bongshin Lee
+    - John Stasko
+  venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2020)
+  type: journal
+  date: 2020-10
+  materials:
+    pdf:
+    video:
+    talk:
+    demo: 
+
+- title: "InChorus: Designing Consistent Multimodal Interactions for Data Visualization on Tablet Devices"
+  authors:
+    - Arjun Srinivasan
+    - Bongshin Lee
+    - Nathalie Henry Riche
+    - Steven M. Drucker
+    - Ken Hinckley
+  venue: ACM Conference on Human Factors in Computing Systems (CHI), 2020
+  type: conference
+  date: 2020-04
+  award: Best Paper, Honorable Mention
+  materials:
+    pdf:
+    video:
+    talk:
+
+- title: "How to Ask What to Say?: Strategies for Evaluating Natural Language Interfaces for Data Visualization"
+  authors:
+    - Arjun Srinivasan
+    - John Stasko
+  venue: IEEE Computer Graphics and Applications (CG&A), 2020
+  type: journal
+  date: 2020-07
+  materials:
+    pdf:
+
+- title: "Touch? Speech? or Touch and Speech? Investigating Multimodal Interaction for Visual Network Exploration and Analysis"
+  authors:
+    - Ayshwarya Saktheeswaran
+    - Arjun Srinivasan
+    - John Stasko
+  venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE PacificVis 2020)
+  type: journal
+  date: 2020-04
+  materials:
+    pdf:
+    talk: 
+
+- title: Augmenting Visualizations with Interactive Data Facts to Facilitate Interpretation and Communication
+  authors:
+    - Arjun Srinivasan
+    - Steven M. Drucker
+    - Alex Endert
+    - John Stasko
+  venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2019)
+  type: journal
+  date: 2019-10
+  materials:
+    pdf:
+    video:
+    talk:
+    demo:
+    code:
+
+- title: Discovering Natural Language Commands in Multimodal Interfaces
+  authors:
+    - Arjun Srinivasan
+    - Mira Dontcheva
+    - Eytan Adar
+    - Seth Walker
+  venue: ACM Conference on Intelligent User Interfaces (IUI), 2019
+  type: conference
+  date: 2019-03
+  materials:
+    pdf:
+    video:
+    talk:
+
+- title: "TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning"
+  authors:
+    - Fred Hohman*
+    - Arjun Srinivasan*
+    - Steven M. Drucker
+  venue: IEEE Conference on Visualization & Visual Analytics (VIS), 2019 | Short paper
+  type: conference
+  date: 2019-10
+  equal_contribution: true
+  materials:
+    pdf:
+    demo:
+    code:
+
+- title: "VisWall: Visual Data Exploration using Direct Combination on Large Touch Displays"
+  authors:
+    - Mallika Agarwal
+    - Arjun Srinivasan
+    - John Stasko
+  venue: IEEE Conference on Visualization & Visual Analytics (VIS), 2019 | Short paper
+  type: conference
+  date: 2019-10
+  materials:
+    pdf:
+    video:
+
