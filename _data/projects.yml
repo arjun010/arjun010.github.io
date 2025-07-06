@@ -1,0 +1,90 @@
+- title: NL4DV
+  description: A Python package for generating data visualizations via natural language queries.
+  feature-on-home: true
+  date: 2020-10
+  materials:
+    pdf: "assets/papers/project1.pdf"
+    demo: "https://example.com/demo1"
+    code: "github.com"
+
+- title: Pluto
+  description: "project description"
+  date: 2025-03
+  materials:
+    demo: ""
+    code: "github.com"
+
+- title: Medley
+  description: "project description"
+  date: 2022-10
+  materials:
+    demo: ""
+    code: "github.com"
+
+- title: Azimuth
+  description: "project description"
+  date: 2023-10
+  materials:
+    demo: ""
+    code: "github.com"
+
+- title: Olio
+  description: "project description"
+  date: 2023-10
+  materials:
+    demo: "https://example.com/demo1"
+    code: "github.com"
+
+- title: Voder
+  description: "project description"
+  materials:
+    demo: "https://example.com/demo2"
+    code: "github.com"
+
+- title: CommandTips
+  description: "project description"
+  date: 2019-04
+  materials:
+    demo: "https://example.com/demo3"
+
+- title: TeleGAM
+  description: "project description"
+  date: 2019-10
+  materials:
+    demo: "https://example.com/demo3"
+    code: "github.com"
+
+- title: NLV Corpus
+  description: "project description"
+
+- title: DataBreeze
+  description: "project description"
+  feature-on-home: true
+  materials:
+    demo: "https://example.com/demo4"
+    code: "github.com"
+
+- title: Graphiti
+  description: "project description"
+  materials:
+    demo: "https://example.com/demo5"
+    code: "github.com"
+
+- title: Snowy
+  description: "project description"
+  feature-on-home: true
+  materials:
+    demo: "https://example.com/demo5"
+    code: "github.com"
+
+- title: ecoxight
+  description: "project description"
+  date: 2018-06
+  materials:
+    project: 
+
+- title: CricVis
+  description: "project description"
+  date: 2017-10
+  materials:
+    project: "https://example.com/cricvis"    

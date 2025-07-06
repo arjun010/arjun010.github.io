@@ -6,6 +6,7 @@
   venue: ACM Conference on Intelligent User Interfaces (IUI), 2025
   type: conference
   date: 2025-03
+  feature-on-home: true
   materials:
     pdf: 
     video: 
@@ -141,7 +142,7 @@
   authors:
     - Arjun Srinivasan
     - Vidya Setlur
-  venue: EuroVis 2023 (Short paper)
+  venue: EuroVis 2023 | Short paper
   type: conference
   date: 2023-06
   materials:
@@ -240,6 +241,7 @@
   type: journal
   date: 2020-10
   equal_contribution: true
+  feature-on-home: true
   materials:
     pdf:
     video:
@@ -299,22 +301,6 @@
     pdf:
     talk: 
 
-- title: Augmenting Visualizations with Interactive Data Facts to Facilitate Interpretation and Communication
-  authors:
-    - Arjun Srinivasan
-    - Steven M. Drucker
-    - Alex Endert
-    - John Stasko
-  venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2019)
-  type: journal
-  date: 2019-10
-  materials:
-    pdf:
-    video:
-    talk:
-    demo:
-    code:
-
 - title: Discovering Natural Language Commands in Multimodal Interfaces
   authors:
     - Arjun Srinivasan
@@ -355,3 +341,169 @@
     pdf:
     video:
 
+- title: Augmenting Visualizations with Interactive Data Facts to Facilitate Interpretation and Communication
+  authors:
+    - Arjun Srinivasan
+    - Steven M. Drucker
+    - Alex Endert
+    - John Stasko
+  venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2019)
+  type: journal
+  date: 2018-10
+  feature-on-home: true
+  materials:
+    pdf:
+    video:
+    talk:
+    demo:
+    code:
+
+- title: "What's the Difference?: Evaluating Variants of Multi-Series Bar Charts for Visual Comparison Tasks"
+  authors:
+    - Arjun Srinivasan
+    - Matthew Brehmer
+    - Bongshin Lee
+    - Steven M. Drucker
+  venue: ACM Conference on Human Factors in Computing Systems (CHI), 2018
+  type: conference
+  date: 2018-04
+  materials:
+    pdf:
+    video:
+    talk:
+
+- title: Facilitating Spreadsheet Manipulation on Mobile Devices Leveraging Speech
+  authors:
+    - Arjun Srinivasan
+    - Bongshin Lee
+    - John Stasko
+  venue: Workshop on Data Visualization on Mobile Devices, ACM CHI 2018
+  type: workshop
+  date: 2018-04
+  materials:
+    pdf:
+
+- title: Multimodal Interaction for Data Visualization
+  authors:
+    - Bongshin Lee
+    - Arjun Srinivasan
+    - John Stasko
+    - Melanie Tory
+    - Vidya Setlur
+  venue: International Conference on Advanced Visual Interfaces (AVI), 2018
+  type: workshop
+  date: 2018-05
+  materials:
+    pdf:
+    website: https://sites.google.com/view/multimodalvis/home
+
+- title: "Tangraphe: Interactive Exploration of Network Visualizations using Single Hand, Multi-touch Gestures"
+  authors:
+    - John Thompson
+    - Arjun Srinivasan
+    - John Stasko
+  venue: International Conference on Advanced Visual Interfaces (AVI), 2018
+  type: conference
+  date: 2018-05
+  materials:
+    pdf:
+    video:
+
+- title: "ecoxight: Discovery, Exploration, and Analysis of Business Ecosystems Using Interactive Visualization"
+  authors:
+    - Rahul C. Basole
+    - Arjun Srinivasan
+    - Hyunwoo Park
+    - Shiv patel
+  venue: ACM Transactions on Management Information Systems (TMIS), 2018
+  type: journal
+  date: 2018-06
+  materials:
+    pdf:
+    video:
+    project:
+
+
+- title: "Orko: Facilitating Multimodal Interaction for Visual Exploration and Analysis of Networks"
+  authors:
+    - Arjun Srinivasan
+    - John Stasko
+  venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2017)
+  type: journal
+  date: 2017-10
+  materials:
+    pdf:
+    video:
+    talk:
+
+- title: "Graphiti: Interactive Specification of Attribute-based Edges for Network Modeling and Visualization"
+  authors:
+    - Arjun Srinivasan
+    - Hyunwoo Park
+    - Alex Endert
+    - Rahul C. Basole
+  venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2017)
+  type: journal
+  date: 2017-10
+  materials:
+    pdf:
+    video:
+    talk:
+
+- title: Affordances of Input Modalities for Visual Data Exploration in Immersive Environments
+  authors:
+    - Sriram Karthik Badam
+    - Arjun Srinivasan
+    - Niklas Elmqvist
+    - John Stasko
+  venue: 2nd Workshop on Immersive Analytics, IEEE VIS 2017
+  type: workshop
+  date: 2017-10
+  materials:
+    pdf:
+
+- title: "CricVis: Interactive Visual Exploration and Analysis of Cricket Matches"
+  authors:
+    - Ayan Das
+    - Arjun Srinivasan
+    - John Stasko
+  venue: Poster at IEEE Visualization & Visual Analytics (VIS), 2017
+  type: poster
+  date: 2017-10
+  materials:
+    pdf:
+    demo:
+    project: 
+
+- title: "Natural Language Interfaces for Data Analysis with Visualization: Considering What Has and Could Be Asked"
+  authors:
+    - Arjun Srinivasan
+    - John Stasko
+  venue: EuroVis 2017 | Short paper
+  type: journal
+  date: 2017-06
+  materials:
+    pdf:
+
+- title: Evaluating Interactive Graphical Encodings for Data Visualization
+  authors:
+    - Bahador Saket
+    - Arjun Srinivasan
+    - Eric D. Ragan
+    - Alex Endert
+  venue: IEEE Transactions on Visualization and Computer Graphics, 2017
+  type: journal
+  date: 2017-03
+  materials:
+    pdf:
+
+- title: Understanding Alliance Portfolios using Visual Analytics
+  authors:
+    - Rahul C. Basole
+    - Timothy Major
+    - Arjun Srinivasan
+  venue: ACM Transactions on Management Information Systems (TMIS), 2017
+  type: journal
+  date: 2017-10
+  materials:
+    pdf:
