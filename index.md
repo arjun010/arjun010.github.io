@@ -43,33 +43,14 @@ permalink: /
       </div>        
       <div class='space-y-4'>
           <p>
-          I'm a Lead Research Scientist at
-          <span href="https://www.tableau.com/research" target="_blank" class="flex items-center inline-flex align-top hover:text-blue-400 hover:underline">
-            <img src="assets/images/salesforce-logo.webp" alt="" class="h-6 mr-1 w-4 h-auto">
-            <span> Salesforce</span>
-          </span> working on <b class="text-gray-800">intelligent and expressive tools for human-data interaction</b>. I develop systems that guide visual data analysis through proactive recommendations and multimodal interfaces allow people to freely query and interact with data.
+          I'm a Lead Research Scientist at <span class="flex items-center inline-flex align-top"><img src="assets/images/salesforce-logo.png" alt="" class="h-6 mr-1 w-5 h-auto"> Salesforce</span> working on <b class="text-gray-800">intelligent and expressive tools for human-data interaction</b>. I develop systems that guide visual data analysis through proactive recommendations and multimodal interfaces allow people to freely query and interact with data.
           </p>
           <p>
-          Previously, I was a part of the visualization team at <a href="https://www.databricks.com/product/ai-bi" target="_blank" class="flex items-center inline-flex align-top hover:text-blue-400 hover:underline">
-            <img src="assets/images/databricks-logo.png" alt="" class="h-6 mr-1 w-4 h-auto">
-            <span> Databricks AI/BI</span></a>, where I worked on interactive data querying and conversational interfaces for chart authoring.
-          I have also built multimodal data visualization and photo editing tools during internships at
-          <a href="https://www.microsoft.com/en-us/research/" target="_blank" class="flex items-center inline-flex align-top hover:text-blue-400 hover:underline">
-            <img src="assets/images/microsoft-logo.png" alt="Microsoft Logo" class="h-6 mr-1 w-4 h-auto">
-            <span> Microsoft Research</span>
-          </a> and
-          <a href="https://research.adobe.com/" target="_blank" class="flex items-center inline-flex align-top hover:text-blue-400 hover:underline">
-            <img src="assets/images/adobe-logo.png" alt="Adobe Logo" class="h-6 mr-1 w-4 h-auto">
-            <span> Adobe Research</span>
-          </a>.
+          Previously, I was a part of the visualization team at <span class="flex items-center inline-flex align-top"> <img src="assets/images/databricks-logo.png" alt="" class="h-6 mr-1 w-4 h-auto"> Databricks AI/BI</span>, where I worked on interactive data querying and conversational interfaces for chart authoring.
+          I have also built multimodal data visualization and photo editing tools during internships at <span class="flex items-center inline-flex align-top "><img src="assets/images/microsoft-logo.png" alt="Microsoft Logo" class="h-6 mr-1 w-4 h-auto"> Microsoft Research</span> and <span class="flex items-center inline-flex align-top"><img src="assets/images/adobe-logo.png" alt="Adobe Logo" class="h-6 mr-1 w-4 h-auto"> Adobe Research</span>.
       </p>
       <p>
-          I received my PhD from 
-          <a class="flex items-center inline-flex align-top hover:text-blue-400 hover:underline" href="https://www.ic.gatech.edu/" target="_blank">
-            <img src="assets/images/gatech-logo.png" alt="Georgia Tech Logo" class="h-6 pr-1">
-            <span>Georgia Tech</span>
-          </a> where I worked with 
-          <a href="https://faculty.cc.gatech.edu/~john.stasko/" target="_blank" class="text-blue-400 hover:underline">John Stasko</a>.
+          I received my PhD from <span class="flex items-center inline-flex align-top"><img src="assets/images/gatech-logo.png" alt="Georgia Tech Logo" class="h-6 pr-1"> Georgia Tech</span> where I worked with <a href="https://faculty.cc.gatech.edu/~john.stasko/" target="_blank" class="text-blue-400 hover:underline">John Stasko</a>.
           My dissertation focused on <a href="https://repository.gatech.edu/entities/publication/c95f50d3-72a0-4b35-9421-f8689616edf1" target="_blank" class="text-blue-400 hover:underline">multimodal human-data interaction</a> interfaces and received the <a href="https://ieeevis.b-cdn.net/vis_2021/pdfs/vgtc-dissertation.pdf" target="_blank" class='hover:text-yellow-500 hover:underline'><i class='fa fa-trophy text-yellow-500'></i> IEEE VGTC Visualization Best Dissertation Award</a>.
       </p>
       <!-- Resume/CV -->
