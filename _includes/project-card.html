@@ -8,15 +8,8 @@
     <!-- Project Description -->
     <p class="text-gray-600 text-sm">{{ project.description }}</p>
 
-    <!-- Icons at the Bottom
-    <div class="flex items-center space-x-4 mt-4">
-        {% for icon in project.icons %}
-        <a href="{{ icon.url }}" target="_blank" class="text-gray-500 hover:text-blue-500">
-            <i class="{{ icon.class }}"></i>
-        </a>
-        {% endfor %}
-    </div> -->
+    <!-- Icons at the Bottom -->
     {% if project.materials %}
-        {% include info-row.html materials=project.materials container='project-card' %}
+        {% include info-row.html materials=project.materials priority_keys="project,demo,video,talk,code" %}
     {% endif %}
 </div>
