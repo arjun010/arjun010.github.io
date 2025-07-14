@@ -4,10 +4,10 @@ permalink: /publications
 title: Publications
 ---
 
-<div class="publications-list space-y-4">
+<div class="publications-list">
 {% assign publications_by_year = site.data.publications | group_by_exp: "pub", "pub.date | split: '-' | first" %}
 {% for group in publications_by_year %}
-    <div class="year-section space-y-2">
+    <div class="year-section">
         <div class="flex items-center space-x-4">
             <hr class="flex-grow border-gray-200">
             <h2 class="text-2xl font-thin text-gray-300">{{ group.name }}</h2>

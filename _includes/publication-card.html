@@ -1,9 +1,9 @@
 <div class="publication-item group space-y-1 border border-transparent hover:shadow-sm hover:shadow-gray-500 hover:rounded-sm transition duration-200 p-4">
-    <h2 class="text-base text-gray-700 group-hover:text-black font-medium">{{ publication.title }}</h2>
+    <h2 class="text-base text-gray-800 group-hover:text-black font-medium">{{ publication.title }}</h2>
     <div class="space-y-1 text-sm">
         <!-- <p class="text-gray-600">{{ publication.authors | join: ', ' }}</p> -->
         {% include publication-author-row.html %}
-        <p class="text-gray-400 group-hover:text-gray-700">{{ publication.venue }}</p>
+        <p class="text-gray-400 group-hover:text-gray-800">{{ publication.venue }}</p>
         {% if publication.award %}
             <p class="text-sm text-orange-400 font-medium group-hover:text-orange-500"><i class="fas fa-trophy"></i> {{ publication.award }}</p>
         {% endif %}
@@ -11,6 +11,6 @@
     
     <!-- Include the link-row for materials -->
     {% if publication.materials %}
-        {% include info-row.html materials=publication.materials container='publication-card' %}
+        {% include info-row.html materials=publication.materials priority_keys="paper,talk,video,project,demo" %}
     {% endif %}
 </div>

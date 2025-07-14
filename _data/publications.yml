@@ -6,10 +6,11 @@
   venue: ACM Conference on Intelligent User Interfaces (IUI), 2025
   type: conference
   date: 2025-03
-  feature-on-home: true
+  feature-on-home-page: true
   materials:
-    pdf: 
-    video: 
+    paper: assets/papers/pluto-iui25.pdf
+    video: 'https://drive.google.com/file/d/1e_DWFxYVQBvvmeZHlmkzjGPJnHGFM_aS/view?usp=sharing'
+    blog: https://www.tableau.com/blog/ai-assisted-authoring-text-and-charts-data-driven-communication
 
 - title: "RemixTape: Enriching Narratives about Metrics with Semantic Alignment and Contextual Recommendation"
   authors:
@@ -20,8 +21,8 @@
   type: conference
   date: 2025-04
   materials:
-    pdf:
-    talk:
+    paper: assets/papers/remixtape-pacificvis25.pdf
+    talk: 'https://youtu.be/23w_pUiNtuM?t=4394'
 
 - title: "GROOT: A System for Editing and Configuring Automated Data Insights"
   authors:
@@ -33,8 +34,9 @@
   type: conference
   date: 2024-10
   materials:
-    pdf: 
-    talk: https://youtu.be/5O_zfoG4xOo?t=2845
+    paper: assets/papers/groot-vis24.pdf
+    talk: https://youtu.be/5O_zfoG4xOo?t=2855
+    blog: https://www.tableau.com/blog/tableau-research-default-customizing-automated-data-insights-groot
 
 - title: Enabling Tabular Data Exploration for Blind and Low-Vision Users
   authors:
@@ -45,8 +47,8 @@
   type: conference
   date: 2024-07
   materials:
-    pdf: 
-    video: https://dl.acm.org/doi/10.1145/3643834.3661609    
+    paper: assets/papers/blv-table-dis24.pdf
+    video: https://drive.google.com/file/d/1Zv6uSdlu1rPEIGbuxc576PH2tnn1P31L/view?usp=sharing
 
 - title: "From Dashboard Zoo to Census: A Case Study With Tableau Public"
   authors:
@@ -60,8 +62,8 @@
   type: journal
   date: 2024-11
   materials:
-    pdf: 
-    dataset: 
+    paper: assets/papers/dashboard-census-tvcg24.pdf
+    dataset: https://osf.io/r5cfk/files/osfstorage
 
 - title: "Bringing Data into the Conversation: Adapting Content from Business Intelligence Dashboards for Threaded Collaboration Platforms"
   authors:
@@ -72,7 +74,7 @@
   type: conference
   date: 2024-10
   materials:
-    pdf: 
+    paper: assets/papers/philo-vis24.pdf
     talk: https://youtu.be/O3wdZMpMs-I?t=3512
 
 - title: "Azimuth: Designing Accessible Dashboards for Screen Reader Users"
@@ -86,9 +88,9 @@
   date: 2023-10
   award: Best Paper, Honorable Mention
   materials:
-    pdf: 
-    video: 
-    demo: 
+    paper: assets/papers/azimuth-assets23.pdf
+    demo: https://arjun010.github.io/acc-dash/ 
+    blog: https://www.tableau.com/blog/designing-accessible-dashboards-screen-reader-users
 
 - title: "Olio: A Semantic Search Interface for Data Repositories"
   authors:
@@ -99,8 +101,9 @@
   type: conference
   date: 2023-10
   materials:
-    pdf: 
-    video: 
+    paper: assets/papers/olio-uist23.pdf
+    video: https://drive.google.com/file/d/1VW2n6lrWX1TYQKF8WMXL2-EHpiAZuXQO/view?usp=sharing
+    blog: https://www.tableau.com/blog/exploring-data-repositories-semantic-search-interface
 
 - title: "DataTales: Investigating the use of Large Language Models for Authoring Data-Driven Articles"
   authors:
@@ -110,9 +113,10 @@
   type: conference
   date: 2023-10
   materials:
-    pdf:
-    video: https://www.tableau.com/datatales-investigating-use-large-language-models-authoring-data-driven-articles-video
+    paper: assets/papers/datatales-vis23.pdf
+    video: https://drive.google.com/file/d/1L_8MSsrPLUVqWkM1JlbNVxNJf7lbpIIR/view?usp=sharing
     talk: https://www.youtube.com/watch?v=KRKpifl4M_8
+    blog: https://www.tableau.com/blog/datatales-leveraging-generative-ai-create-data-driven-articles
 
 - title: Combining Voice and Gesture for Presenting Data to Remote Audiences
   authors:
@@ -122,8 +126,9 @@
   type: workshop
   date: 2023-10
   materials:
-    pdf:
-    video:
+    paper: assets/papers/mm-presentation-mercado23.pdf
+    video: https://drive.google.com/file/d/1YivfeSEaspJwAlb13kVKwJ3nqKhP_Y9O/view?usp=sharing
+    blog: https://www.tableau.com/blog/adding-speech-interaction-tableau-gestures
 
 - title: Exploring Chart Question Answering for Blind and Low Vision Users
   authors:
@@ -135,7 +140,7 @@
   type: conference
   date: 2023-04
   materials:
-    pdf: 
+    paper: assets/papers/blv-qa-chi23.pdf
     talk: https://www.youtube.com/watch?v=MGbKT4Nbvew
 
 - title: "BOLT: A Natural Language Interface for Dashboard Authoring"
@@ -146,7 +151,7 @@
   type: conference
   date: 2023-06
   materials:
-    pdf: 
+    paper: assets/papers/bolt-eurovis23.pdf
     video: https://drive.google.com/file/d/1c6_eWz18Cme_1-bYvVqtakxisI7e1DD5/view
 
 - title: "MEDLEY: Intent-based Recommendations to Support Dashboard Composition"
@@ -159,10 +164,11 @@
   date: 2022-10
   award: Best Paper, Honorable Mention
   materials:
-    pdf: 
-    video: 
-    talk: 
-    demo: 
+    paper: assets/papers/medley-vis22.pdf
+    video: https://youtu.be/ViFBhTriwTA
+    talk: https://youtu.be/EmivHVnPO14?t=3001
+    demo: https://arjun010.github.io/intelligent-mv-reco/app/templates/
+    blog: https://www.tableau.com/blog/supporting-dashboard-composition-through-intent-based-recommendations
 
 - title: "Comparison Conundrum and the Chamber of Visualizations: An Exploration of How Language Influences Visual Design"
   authors:
@@ -175,7 +181,7 @@
   type: journal
   date: 2022-10
   materials:
-    pdf: 
+    paper: assets/papers/nl-comparison-vis22.pdf
 
 - title: "Snowy: Recommending Utterances for Conversational Visual Analysis"
   authors:
@@ -185,9 +191,10 @@
   type: conference
   date: 2021-10
   materials:
-    pdf:
-    video:
-    talk:
+    paper: assets/papers/snowy-uist21.pdf
+    video: https://youtu.be/tdWzrq8qU40
+    talk: https://www.youtube.com/watch?v=JGg5w0MsIDc
+    blog: https://www.tableau.com/blog/helping-people-ask-data-questions
 
 - title: Collecting and Characterizing Natural Language Utterances for Specifying Data Visualizations
   authors:
@@ -200,9 +207,9 @@
   type: conference
   date: 2021-05
   materials:
-    pdf:
-    talk:
+    paper: assets/papers/nlvcorpus-chi21.pdf
     project: https://nlvcorpus.github.io/
+    talk: https://www.youtube.com/watch?v=CYRVJFBLmH0    
 
 - title: "Data@Hand: Fostering Visual Exploration of Personal Data on Smartphones Leveraging Speech and Touch Interaction"
   authors:
@@ -215,10 +222,9 @@
   date: 2021-05
   award: Best Paper, Honorable Mention
   materials:
-    pdf:
-    video:
-    talk:
-    code:
+    paper: assets/papers/data-at-hand-chi21.pdf
+    video: https://www.youtube.com/watch?v=ct2s29n-mJM
+    talk: https://www.youtube.com/watch?v=KAjCiMAKf4I
 
 - title: "Post-WIMP Interaction for Information Visualization"
   authors:
@@ -230,7 +236,7 @@
   type: book
   date: 2021-06
   materials:
-    pdf:
+    paper: https://www.nowpublishers.com/article/Details/HCI-081
 
 - title: "NL4DV: A Toolkit for Generating Analytic Specifications for Data Visualization from Natural Language Queries"
   authors:
@@ -241,13 +247,11 @@
   type: journal
   date: 2020-10
   equal_contribution: true
-  feature-on-home: true
   materials:
-    pdf:
-    video:
-    talk:
-    project: https://nl4dv.github.io/
-    code:
+    paper: assets/papers/nl4dv-vis20.pdf    
+    video: https://www.youtube.com/watch?v=U5uDyILweu8
+    talk: https://www.youtube.com/watch?v=nJnE7mxbA2k&feature=youtu.be&t=4130            
+    project: https://nl4dv.github.io/        
 
 - title: "Interweaving Multimodal Interaction with Flexible Unit Visualizations for Data Exploration"
   authors:
@@ -257,11 +261,12 @@
   venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2020)
   type: journal
   date: 2020-10
+  feature-on-home-page: true
   materials:
-    pdf:
-    video:
-    talk:
-    demo: 
+    paper: assets/papers/databreeze-tvcg20.pdf
+    video: https://drive.google.com/open?id=13sNoko_HEzM1Xn3pdekUXmdgKjkox51C
+    talk: https://www.youtube.com/watch?v=ffqeJAAc6ro&feature=youtu.be&t=80
+    demo: https://arjun010.github.io/DataBreeze/
 
 - title: "InChorus: Designing Consistent Multimodal Interactions for Data Visualization on Tablet Devices"
   authors:
@@ -275,9 +280,9 @@
   date: 2020-04
   award: Best Paper, Honorable Mention
   materials:
-    pdf:
-    video:
-    talk:
+    paper: assets/papers/inchorus-chi20.pdf
+    video: https://www.youtube.com/watch?v=cy0VSmUP_98
+    talk: https://www.youtube.com/watch?v=_Jzv7Uuzy6Y
 
 - title: "How to Ask What to Say?: Strategies for Evaluating Natural Language Interfaces for Data Visualization"
   authors:
@@ -287,7 +292,7 @@
   type: journal
   date: 2020-07
   materials:
-    pdf:
+    paper: assets/papers/nli-eval-cga20.pdf
 
 - title: "Touch? Speech? or Touch and Speech? Investigating Multimodal Interaction for Visual Network Exploration and Analysis"
   authors:
@@ -298,8 +303,8 @@
   type: journal
   date: 2020-04
   materials:
-    pdf:
-    talk: 
+    paper: assets/papers/orko-study-tvcg20.pdf
+    talk: https://drive.google.com/file/d/1iB7Hb_65YCCns1yCWLFL-GW6KuNgfS5a/view?usp=sharing
 
 - title: Discovering Natural Language Commands in Multimodal Interfaces
   authors:
@@ -311,9 +316,9 @@
   type: conference
   date: 2019-03
   materials:
-    pdf:
-    video:
-    talk:
+    paper: assets/papers/discover-nl-iui19.pdf
+    video: https://drive.google.com/open?id=1HdiIf3qH_jzhnPl6sfa3kT8388PGTSv0
+    talk: https://www.youtube.com/watch?v=C0ESlhXjoOI
 
 - title: "TeleGam: Combining Visualization and Verbalization for Interpretable Machine Learning"
   authors:
@@ -325,9 +330,9 @@
   date: 2019-10
   equal_contribution: true
   materials:
-    pdf:
-    demo:
-    code:
+    paper: assets/papers/telegam-vis19.pdf
+    demo: https://poloclub.github.io/telegam/
+    code: https://github.com/poloclub/telegam
 
 - title: "VisWall: Visual Data Exploration using Direct Combination on Large Touch Displays"
   authors:
@@ -338,8 +343,8 @@
   type: conference
   date: 2019-10
   materials:
-    pdf:
-    video:
+    paper: assets/papers/viswall-vis19.pdf
+    video: https://drive.google.com/open?id=1LswsKOz-9qlZ_2UZwK2Vqyq4IH699br-
 
 - title: Augmenting Visualizations with Interactive Data Facts to Facilitate Interpretation and Communication
   authors:
@@ -350,13 +355,13 @@
   venue: IEEE Transactions on Visualization and Computer Graphics (presented at IEEE VIS 2019)
   type: journal
   date: 2018-10
-  feature-on-home: true
+  feature-on-home-page: true
   materials:
-    pdf:
-    video:
-    talk:
-    demo:
-    code:
+    paper: assets/papers/voder-vis18.pdf
+    video: https://drive.google.com/open?id=1HdiIf3qH_jzhnPl6sfa3kT8388PGTSv0
+    talk: https://vimeo.com/299862032
+    demo: https://arjun010.github.io/Voder/
+    code: https://github.com/arjun010/Voder
 
 - title: "What's the Difference?: Evaluating Variants of Multi-Series Bar Charts for Visual Comparison Tasks"
   authors:
@@ -368,9 +373,9 @@
   type: conference
   date: 2018-04
   materials:
-    pdf:
-    video:
-    talk:
+    paper: assets/papers/bardiff-chi18.pdf
+    video: https://drive.google.com/open?id=1uUT5YQz-oai0Ec5rpNQLZOKR1X8WjfsS
+    talk: https://www.youtube.com/watch?v=hSDgy1MIMrc
 
 - title: Facilitating Spreadsheet Manipulation on Mobile Devices Leveraging Speech
   authors:
@@ -381,7 +386,7 @@
   type: workshop
   date: 2018-04
   materials:
-    pdf:
+    paper: assets/papers/multimodal-spreadsheets-mobilevis18.pdf
 
 - title: Multimodal Interaction for Data Visualization
   authors:
@@ -390,11 +395,11 @@
     - John Stasko
     - Melanie Tory
     - Vidya Setlur
-  venue: International Conference on Advanced Visual Interfaces (AVI), 2018
+  venue: Workshop at the International Conference on Advanced Visual Interfaces (AVI), 2018
   type: workshop
   date: 2018-05
   materials:
-    pdf:
+    paper: assets/papers/multimodal-workshop-avi18.pdf
     website: https://sites.google.com/view/multimodalvis/home
 
 - title: "Tangraphe: Interactive Exploration of Network Visualizations using Single Hand, Multi-touch Gestures"
@@ -406,8 +411,8 @@
   type: conference
   date: 2018-05
   materials:
-    pdf:
-    video:
+    paper: assets/papers/tangraphe-avi18.pdf
+    video: https://drive.google.com/open?id=1Gpqaz8NJw-eJ4PjQ_FpWgXmiaOhtdOlM
 
 - title: "ecoxight: Discovery, Exploration, and Analysis of Business Ecosystems Using Interactive Visualization"
   authors:
@@ -419,9 +424,9 @@
   type: journal
   date: 2018-06
   materials:
-    pdf:
-    video:
-    project:
+    paper: assets/papers/ecoxight-tmis18.pdf
+    video: https://drive.google.com/open?id=0B6tNBOiQ2wIleGZIMFp2eFNDcUk
+    project: https://ecoxight.com/
 
 
 - title: "Orko: Facilitating Multimodal Interaction for Visual Exploration and Analysis of Networks"
@@ -432,9 +437,9 @@
   type: journal
   date: 2017-10
   materials:
-    pdf:
-    video:
-    talk:
+    paper: assets/papers/orko-vis17.pdf
+    video: https://drive.google.com/open?id=0B6tNBOiQ2wIld1dCOU8wODI3WDg
+    talk: https://vimeo.com/238502489
 
 - title: "Graphiti: Interactive Specification of Attribute-based Edges for Network Modeling and Visualization"
   authors:
@@ -446,9 +451,9 @@
   type: journal
   date: 2017-10
   materials:
-    pdf:
-    video:
-    talk:
+    paper: assets/papers/graphiti-vis17.pdf
+    video: https://drive.google.com/file/d/1PvZRH3JRBEo5OUS16PrRKwy7NEirASJd/view?usp=sharing
+    talk: https://vimeo.com/237670662
 
 - title: Affordances of Input Modalities for Visual Data Exploration in Immersive Environments
   authors:
@@ -460,7 +465,7 @@
   type: workshop
   date: 2017-10
   materials:
-    pdf:
+    paper: assets/papers/input_affordances-immersiveanalytics17.pdf
 
 - title: "CricVis: Interactive Visual Exploration and Analysis of Cricket Matches"
   authors:
@@ -471,9 +476,8 @@
   type: poster
   date: 2017-10
   materials:
-    pdf:
-    demo:
-    project: 
+    paper: assets/papers/cricvis-poster-vis17.pdf
+    video: https://vimeo.com/groups/480818/videos/230837689
 
 - title: "Natural Language Interfaces for Data Analysis with Visualization: Considering What Has and Could Be Asked"
   authors:
@@ -483,7 +487,7 @@
   type: journal
   date: 2017-06
   materials:
-    pdf:
+    paper: assets/papers/nli-vis-eurovis17.pdf
 
 - title: Evaluating Interactive Graphical Encodings for Data Visualization
   authors:
@@ -495,7 +499,8 @@
   type: journal
   date: 2017-03
   materials:
-    pdf:
+    paper: assets/papers/interactive-encodings-tvcg17.pdf
+    blog: https://medium.com/@GT_Vis/evaluating-interactive-graphical-encodings-for-data-visualization-b9b8b4bf47f8
 
 - title: Understanding Alliance Portfolios using Visual Analytics
   authors:
@@ -506,4 +511,4 @@
   type: journal
   date: 2017-10
   materials:
-    pdf:
+    paper: assets/papers/epheno-tmis17.pdf
