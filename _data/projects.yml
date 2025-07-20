@@ -2,15 +2,18 @@
   description: A Python package for generating data visualizations via natural language queries.
   feature-on-home-page: true
   date: 2020-10
+  image: assets/images/projects/nl4dv.png 
   materials:    
-    paper: assets/papers/nl4dv-vis20.pdf
-    project: https://nl4dv.github.io
+    paper: assets/papers/nl4dv-vis20.pdf    
     video: https://www.youtube.com/watch?v=U5uDyILweu8
+    talk: https://www.youtube.com/watch?v=nJnE7mxbA2k&feature=youtu.be&t=4130            
+    project: https://nl4dv.github.io/        
     
 
 - title: Pluto
   description: A tool for AI-assisted authoring of charts and text for data-driven communication
   date: 2025-03
+  image: assets/images/projects/pluto.png
   materials:
     video: https://drive.google.com/file/d/1e_DWFxYVQBvvmeZHlmkzjGPJnHGFM_aS/view?usp=sharing
     paper: assets/papers/pluto-iui25.pdf
@@ -19,7 +22,7 @@
 - title: Medley
   description: A mixed-initiative recommendation system for composing visualization dashboards.
   date: 2022-10
-  feature-on-home-page: true
+  image: assets/images/projects/medley.png
   materials:
     demo: https://arjun010.github.io/medley/app/templates
     paper: assets/papers/medley-vis22.pdf
@@ -28,13 +31,16 @@
 - title: Azimuth
   description: Accessible data visualization dashboards for screen reader users.
   date: 2023-10
+  image: assets/images/projects/azimuth.png
   materials:
     demo: https://arjun010.github.io/azimuth/
     paper: assets/papers/azimuth-assets23.pdf
+    video: https://www.youtube.com/watch?v=AP2x7EcPqCs
 
 - title: Olio
   description: A semantic search interface for data repositories.
   date: 2023-10
+  image: assets/images/projects/olio.png
   materials:
     paper: assets/papers/olio-uist23.pdf
     video: https://drive.google.com/file/d/1VW2n6lrWX1TYQKF8WMXL2-EHpiAZuXQO/view?usp=sharing
@@ -44,18 +50,21 @@
 - title: Voder
   description: An interface that helps leverage system-generated data facts for visual analysis and communication.
   date: 2018-10
+  image: assets/images/projects/voder.png
+  feature-on-home-page: true
   materials:
     paper: assets/papers/voder-vis18.pdf
     video: https://drive.google.com/open?id=1HdiIf3qH_jzhnPl6sfa3kT8388PGTSv0
     talk: https://vimeo.com/299862032
-    demo: https://arjun010.github.io/Voder/
-    code: https://github.com/arjun010/Voder
+    demo: https://arjun010.github.io/voder/
+    code: https://github.com/arjun010/voder
 
 - title: CommandTips
   description: A design probe to showcase techniques to surface natural language command suggestions in multimodal user interfaces.
   date: 2019-04
+  image: assets/images/projects/commandtips.png
   materials:
-    demo: https://arjun010.github.io/commandtips/Demos/ImageEditor
+    demo: https://arjun010.github.io/commandtips/Demos/ImageEditor/templates/index-org.html
     paper: assets/papers/discover-nl-iui19.pdf
     video: https://drive.google.com/open?id=1HdiIf3qH_jzhnPl6sfa3kT8388PGTSv0
     talk: https://www.youtube.com/watch?v=C0ESlhXjoOI
@@ -63,6 +72,7 @@
 - title: TeleGAM
   description: A system combining visualizations and verbalizations for interactive exploration of ML models.
   date: 2019-10
+  image: assets/images/projects/telegam.png
   materials:
     paper: assets/papers/telegam-vis19.pdf
     demo: https://poloclub.github.io/telegam/
@@ -72,14 +82,17 @@
   description: A dataset of natural nanguage utterances for specifying data visualizations.
   date: 2020-09
   feature-on-home-page: true
+  image: assets/images/projects/nlvcorpus-2.png
   materials:
-    project: https://nlvcorpus.github.io/
     paper: assets/papers/nlvcorpus-chi21.pdf
+    project: https://nlvcorpus.github.io/
+    talk: https://www.youtube.com/watch?v=CYRVJFBLmH0
 
 
 - title: DataBreeze
   description: A multimodal interface for visual data exploration using pen, touch, and speech.
   date: 2020-10
+  image: assets/images/projects/databreeze.png
   materials:
     paper: assets/papers/databreeze-tvcg20.pdf
     video: https://drive.google.com/open?id=13sNoko_HEzM1Xn3pdekUXmdgKjkox51C
@@ -89,6 +102,7 @@
 - title: Graphiti
   description: A programming-by-example system for creating networks from tabular data.
   date: 2017-10
+  image: assets/images/projects/graphiti.png
   materials:
     paper: assets/papers/graphiti-vis17.pdf
     video: https://drive.google.com/file/d/1PvZRH3JRBEo5OUS16PrRKwy7NEirASJd/view?usp=sharing
@@ -97,6 +111,7 @@
 - title: Snowy
   description: A recommendation system for suggesting queries during conversational data analysis.
   date: 2021-10
+  image: assets/images/projects/snowy.png
   materials:
     paper: assets/papers/snowy-uist21.pdf
     video: https://youtu.be/tdWzrq8qU40
@@ -106,6 +121,7 @@
 - title: ecoxight
   description: An interactive visualization system for network data exploration and analysis.
   date: 2018-06
+  image: assets/images/projects/ecoxight.png
   materials:
     paper: assets/papers/ecoxight-tmis18.pdf
     video: https://drive.google.com/open?id=0B6tNBOiQ2wIleGZIMFp2eFNDcUk
@@ -114,6 +130,7 @@
 - title: CricVis
   description: An interactive visualization system to explore cricket match data.
   date: 2017-10  
+  image: assets/images/projects/cricvis.png
   materials:
     video: https://vimeo.com/groups/480818/videos/230837689
     paper: assets/papers/cricvis-poster-vis17.pdf

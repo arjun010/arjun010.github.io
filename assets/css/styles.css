@@ -10,14 +10,5 @@
 }
 
 body{
-  @apply font-default;
-}
-
-.paper-bg {
-  background-color: #fdfdfd; /* Light paper-like color */
-  background-image: 
-      radial-gradient(circle, rgba(0, 0, 0, 0.02) 1px, transparent 1px),
-      radial-gradient(circle, rgba(0, 0, 0, 0.02) 1px, transparent 1px);
-  background-size: 10px 10px, 10px 10px;
-  background-position: 0 0, 5px 5px;
+  @apply font-default bg-white;
 }

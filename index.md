@@ -8,9 +8,11 @@ permalink: /
   <section class="intro grid grid-cols-1 md:grid-cols-[auto_auto] gap-8">
     <!-- left side -->
     <div class="space-y-5 text-center">
-      <img src="/assets/images/arjun-Jan2021.png" alt="Arjun Srinivasan" class="h-70 object-cover mx-auto">
+      <div class="h-60 overflow-hidden">
+        <img src="/assets/images/arjun_srinivasan.png" alt="Arjun Srinivasan" class="w-full h-full object-cover scale-110">
+      </div>
       <div class="space-y-5">
-        <p class="text-sm text-gray-700 hover:text-blue-900">
+        <p class="lg:text-sm sm:text-2xl md:text-2xl text-gray-700 hover:text-blue-900">
           <a href="mailto:arjun.srinivasan.10@gmail.com" class="bg-blue-50 rounded-md p-2 hover:bg-blue-100 group">
             <i class='fas fa-envelope'></i> 
             <span class='group-hover:underline'>arjun.srinivasan.10@gmail.com</span>
@@ -43,7 +45,7 @@ permalink: /
           I'm a research scientist working on <b class="text-gray-800 font-semibold">intelligent and expressive tools for human-data interaction</b>. I develop systems that guide visual analysis through proactive recommendations and multimodal interfaces that allow people to interactively query and explore data.
           </p>
           <p>
-          I'm currently a Lead Research Scientist at <span class="flex items-center inline-flex align-top"><img src="assets/images/logos/salesforce-logo.png" alt="" class="h-6 mr-1 w-4 h-auto"> Salesforce</span>, where I work on R&D of AI-assisted features in <span class="flex items-center inline-flex align-top"><img src="assets/images/logos/tableau-logo.png" alt="" class="h-6 mr-1 w-4 h-auto"> Tableau</span>.
+          I'm currently a Lead Research Scientist at <span class="flex items-center inline-flex align-top"><img src="assets/images/logos/salesforce-logo.png" alt="" class="h-6 mr-1 w-4 h-auto"> Salesforce</span>, where I work on AI-assisted features in <span class="flex items-center inline-flex align-top"><img src="assets/images/logos/tableau-logo.png" alt="" class="h-6 mr-1 w-4 h-auto"> Tableau</span>.
           Previously, I was a part of the visualization team at <span class="flex items-center inline-flex align-top"> <img src="assets/images/logos/databricks-logo.png" alt="" class="h-6 mr-1 w-4 h-auto"> Databricks AI/BI</span>, where I worked on interactive data querying and conversational interfaces for chart authoring.
           I have also built multimodal data visualization and photo editing tools during internships at <span class="flex items-center inline-flex align-top "><img src="assets/images/logos/microsoft-logo.png" alt="Microsoft Logo" class="h-6 mr-1 w-4 h-auto"> Microsoft Research</span> and <span class="flex items-center inline-flex align-top"><img src="assets/images/logos/adobe-logo.png" alt="Adobe Logo" class="h-6 mr-1 w-4 h-auto"> Adobe Research</span>.
       </p>
@@ -53,7 +55,7 @@ permalink: /
       </p>
       <!-- Resume/CV -->
       <p>
-          Here's my <a href="/path-to-cv.pdf" target="_blank" class="text-blue-400 hover:bg-blue-100 rounded-md p-1 group hover:text-blue-900"><i class="fas fa-file-pdf"></i> <span class="group-hover:underline">CV</span></a> for more details.
+          Here's my <a href="assets/ArjunSrinivasan-CV.pdf" target="_blank" class="text-blue-400 hover:bg-blue-100 rounded-md p-1 group hover:text-blue-900"><i class="fas fa-file-pdf"></i> <span class="group-hover:underline">CV</span></a> for more details.
       </p>
     </div>
     </div>

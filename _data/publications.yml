@@ -87,9 +87,11 @@
   type: conference
   date: 2023-10
   award: Best Paper, Honorable Mention
+  feature-on-home-page: true
   materials:
     paper: assets/papers/azimuth-assets23.pdf
-    demo: https://arjun010.github.io/acc-dash/ 
+    demo: https://arjun010.github.io/azimuth/ 
+    video: https://www.youtube.com/watch?v=AP2x7EcPqCs
     blog: https://www.tableau.com/blog/designing-accessible-dashboards-screen-reader-users
 
 - title: "Olio: A Semantic Search Interface for Data Repositories"
@@ -163,11 +165,12 @@
   type: journal
   date: 2022-10
   award: Best Paper, Honorable Mention
+  feature-on-home-page: true
   materials:
     paper: assets/papers/medley-vis22.pdf
     video: https://youtu.be/ViFBhTriwTA
     talk: https://youtu.be/EmivHVnPO14?t=3001
-    demo: https://arjun010.github.io/intelligent-mv-reco/app/templates/
+    demo: https://arjun010.github.io/medley/app/templates/
     blog: https://www.tableau.com/blog/supporting-dashboard-composition-through-intent-based-recommendations
 
 - title: "Comparison Conundrum and the Chamber of Visualizations: An Exploration of How Language Influences Visual Design"
@@ -266,7 +269,7 @@
     paper: assets/papers/databreeze-tvcg20.pdf
     video: https://drive.google.com/open?id=13sNoko_HEzM1Xn3pdekUXmdgKjkox51C
     talk: https://www.youtube.com/watch?v=ffqeJAAc6ro&feature=youtu.be&t=80
-    demo: https://arjun010.github.io/DataBreeze/
+    demo: https://arjun010.github.io/databreeze/
 
 - title: "InChorus: Designing Consistent Multimodal Interactions for Data Visualization on Tablet Devices"
   authors:
@@ -360,8 +363,8 @@
     paper: assets/papers/voder-vis18.pdf
     video: https://drive.google.com/open?id=1HdiIf3qH_jzhnPl6sfa3kT8388PGTSv0
     talk: https://vimeo.com/299862032
-    demo: https://arjun010.github.io/Voder/
-    code: https://github.com/arjun010/Voder
+    demo: https://arjun010.github.io/voder/
+    code: https://github.com/arjun010/voder
 
 - title: "What's the Difference?: Evaluating Variants of Multi-Series Bar Charts for Visual Comparison Tasks"
   authors:
