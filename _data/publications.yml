@@ -1,3 +1,16 @@
+- title: "Criticality: Scaffolding Decision-Making with Interactive Critical Thinking and Evidence-Based Reasoning Traces"
+  authors:
+    - Minsuk Chang
+    - Arjun Srinivasan
+    - Srishti Palani
+  venue: ACM Conference on Intelligent User Interfaces (IUI), 2026
+  type: conference
+  date: 2026-07
+  feature-on-home-page: true
+  materials:
+    paper: assets/papers/criticality-iui26.pdf
+    video: 'https://drive.google.com/file/d/11WN9o5SBJNsoURKU8rGPHtuz1ZZtEGsu/view?usp=sharing'    
+
 - title: "Pluto: Authoring Semantically Aligned Text and Charts for Data-Driven Communication"
   authors:
     - Arjun Srinivasan
