@@ -12,3 +12,7 @@
 body{
   @apply font-default bg-white;
 }
+
+.consulting-card {
+  @apply rounded-xl bg-slate-100 p-2 md:p-2;
+}
